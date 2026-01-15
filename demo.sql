@@ -5,4 +5,7 @@
 -- Type .read demo.sql to run
 -- CTRL + K to clear
 
+-- To create new database?
+-- sqlite3 school.dbo then type .schema
+
 SELECT first_name, last_name FROM players;
