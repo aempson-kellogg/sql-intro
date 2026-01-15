@@ -10,3 +10,14 @@
 -- +------+-------------------+
 
 
+SELECT 
+        A.year,
+        A.name
+
+FROM    teams AS A
+
+WHERE
+        A.park = 'Guaranteed Rate Field'
+
+limit 10;
+

@@ -7,3 +7,15 @@
 -- +------+-------------------+
 
 
+SELECT 
+        A.year,
+        A.name
+
+FROM    teams AS A
+
+WHERE
+        A.park = 'U.S. Cellular Field'
+
+ORDER BY A.year DESC
+
+limit 1;
